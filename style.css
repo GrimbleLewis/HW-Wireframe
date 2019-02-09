@@ -24,8 +24,9 @@ article {
     color: #ebebeb;
     background: #777;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 h1, p, {
@@ -37,7 +38,8 @@ h3, p {
     text-align: center;
     background: #ebebeb;
     color: #777;
-    border: 1px solid black;
+    margin: 15px 10px 10px;
+    padding: 10px;
 }
 
 header {
@@ -58,7 +60,7 @@ nav {
 section {
     float: left;
     width: 495px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -67,30 +69,29 @@ section {
 
 aside {
     float: left;
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: 30px;
+    padding-bottom: 211px;
     padding-right: 133.3px;
     padding-left: 133.3px;
     width: auto;
     margin-left: 10px;
 }
 
-.section {
-    margin: 0 auto;
-    overflow: hidden;
-}
 #wrapper {
-    min-height: 80%;
+    height: auto;
     padding-bottom: 10px;
 }
+
 .clearfix::after {
-    content: “”;
+    content: "";
     display: block;
     clear: both;
+
  }
 
 .footer {
-    min-height: 20%;
+    min-height: 10%;
     overflow: auto;
     text-align: center;
+    padding-top: 50px;
 }

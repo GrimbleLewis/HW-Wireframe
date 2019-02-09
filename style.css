@@ -6,18 +6,38 @@ body {
     font-size: 18px
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header, nav, section, aside, footer {
     background: #ebebeb;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 125px;
+
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1, p, {
     color: #777;
     background: #ebebeb;
+}
+
+h3, p {
+    text-align: center;
+    background: #ebebeb;
+    color: #777;
+    border: 1px solid black;
 }
 
 header {
@@ -36,19 +56,41 @@ nav {
 }
 
 section {
-    width: 495px;
     float: left;
-
+    width: 495px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 
 aside {
-    
-    float: right;
-    display: block;
+    float: left;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    padding-right: 133.3px;
+    padding-left: 133.3px;
+    width: auto;
+    margin-left: 10px;
 }
 
-footer {
-    text-align: center;
-    padding: 50px;
+.section {
+    margin: 0 auto;
+    overflow: hidden;
+}
+#wrapper {
+    min-height: 80%;
+    padding-bottom: 10px;
+}
+.clearfix::after {
+    content: “”;
     display: block;
+    clear: both;
+ }
+
+.footer {
+    min-height: 20%;
+    overflow: auto;
+    text-align: center;
 }

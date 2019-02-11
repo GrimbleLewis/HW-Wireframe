@@ -1,2 +1,2 @@
-# HW-Wireframe
-HTML wireframe homework assignment
+# html-css-wireframe
+html-css-wireframe layout
